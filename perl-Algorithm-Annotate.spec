@@ -3,8 +3,8 @@
 %bcond_without	tests	# don't perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Algorithm
-%define	pnam	Annotate
+%define		pdir	Algorithm
+%define		pnam	Annotate
 Summary:	Algorithm::Annotate - represent a series of changes in annotate form
 Summary(pl):	Algorithm::Annorate - reprezentacja serii zmian w postaci adnotacji
 Name:		perl-Algorithm-Annotate

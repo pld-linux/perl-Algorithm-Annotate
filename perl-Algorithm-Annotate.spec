@@ -6,7 +6,7 @@
 %define		pdir	Algorithm
 %define		pnam	Annotate
 Summary:	Algorithm::Annotate - represent a series of changes in annotate form
-Summary(pl):	Algorithm::Annorate - reprezentacja serii zmian w postaci adnotacji
+Summary(pl.UTF-8):   Algorithm::Annorate - reprezentacja serii zmian w postaci adnotacji
 Name:		perl-Algorithm-Annotate
 Version:	0.10
 Release:	1
@@ -24,7 +24,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Represent a series of changes in annotate form.
 
-%description -l pl
+%description -l pl.UTF-8
 Reprezentacja serii zmian w postaci adnotacji.
 
 %prep

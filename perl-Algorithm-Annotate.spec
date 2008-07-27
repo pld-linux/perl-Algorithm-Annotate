@@ -9,7 +9,7 @@ Summary:	Algorithm::Annotate - represent a series of changes in annotate form
 Summary(pl.UTF-8):	Algorithm::Annorate - reprezentacja serii zmian w postaci adnotacji
 Name:		perl-Algorithm-Annotate
 Version:	0.10
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl

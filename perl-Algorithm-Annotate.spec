@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# don't perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Algorithm
 %define		pnam	Annotate
+%include	/usr/lib/rpm/macros.perl
 Summary:	Algorithm::Annotate - represent a series of changes in annotate form
 Summary(pl.UTF-8):	Algorithm::Annorate - reprezentacja serii zmian w postaci adnotacji
 Name:		perl-Algorithm-Annotate
@@ -15,9 +15,10 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	453395489640e28fc772944ef08d396b
+URL:		http://search.cpan.org/dist/Algorithm-Annotate/
+BuildRequires:	perl-Algorithm-Diff
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-BuildRequires:	perl-Algorithm-Diff
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 

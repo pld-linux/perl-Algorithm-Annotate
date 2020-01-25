@@ -4,7 +4,6 @@
 
 %define		pdir	Algorithm
 %define		pnam	Annotate
-%include	/usr/lib/rpm/macros.perl
 Summary:	Algorithm::Annotate - represent a series of changes in annotate form
 Summary(pl.UTF-8):	Algorithm::Annorate - reprezentacja serii zmian w postaci adnotacji
 Name:		perl-Algorithm-Annotate
